@@ -5,11 +5,12 @@ body {
 }
 
 .header {
+    text-align: center;
     background-color: #011e29;
     color: white;
-    text-align: start;
     padding: 20px;
 }
+
 
 .main-content {
     display: flex;
@@ -22,6 +23,7 @@ body {
 
 .pictorial-news-section {
     text-align: center; /* FIXED: Explicitly set for Cypress test */
+background-color:white;
 }
 .main-article {
     background-color: white;
@@ -30,7 +32,12 @@ body {
     border-radius: 8px;
 }
 
-.latest-news-section h2,
+.latest-news-section{
+	  background-color: white;
+    padding: 20px;
+    width: 30%; /* Adjusted width for better layout */
+    border-radius: 8px;
+}
 .pictorial-news-section h3 {
     margin-bottom: 10px;
 }
@@ -45,8 +52,9 @@ body {
 }
 
 .image-row {
+	
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
