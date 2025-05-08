@@ -20,8 +20,9 @@ body {
     padding: 20px;
 }
 
-.latest-news-section,
-.pictorial-news-section,
+.pictorial-news-section {
+    text-align: center; /* FIXED: Explicitly set for Cypress test */
+}
 .main-article {
     background-color: white;
     padding: 20px;
